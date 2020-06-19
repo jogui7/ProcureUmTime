@@ -1,0 +1,204 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../img/fndlogin.png");
+	background-attachment: fixed;
+	width: 100%;
+	min-height: 600px;
+	background-size: cover;
+}
+header, main, footer {
+    padding-left: 240px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+.side-nav{
+	font-style: italic;
+	background-image: linear-gradient(171deg, rgba(44,52,92,0.9) 0%, rgba(44,198,92,0.9) 100%);
+}
+.button-collapse img{
+	margin: 15px;
+}
+
+.side-nav a{
+	color: #fcfcfc!important;
+}
+.menubotao{
+	height: 36px;
+	width: 36px;
+	margin: 20px;
+	display: block;
+	border-top: 4px solid #39b54a; 
+}
+.menubotao::before{
+	content: '';
+	display: block;
+	height: 4px;
+	background: #39b54a;
+	margin-top: 6px;
+	width: 30px;
+}
+.menubotao::after{
+	content: '';
+	display: block;
+	height: 4px;
+	background: #39b54a;
+	margin-top: 6px;
+	width: 20px;
+}
+.home::before{
+	content:url("../img/home.png");
+	margin-right: 25px;
+}
+
+.perfil::before{
+	content:url("../img/perfil.png");
+	margin-right: 25px;
+}
+.time::before{
+	content:url("../img/time.png");
+	margin-right: 25px;
+}
+.ultimas-partidas::before{
+	content:url("../img/ultimas.png");
+	margin-right: 25px;
+}
+.procure::before{
+	content:url("../img/procure.png");
+	margin-right: 25px;
+}
+.ranking::before{
+	content:url("../img/ranking.png");
+	margin-right: 25px;
+}
+
+.topo {
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 50px;
+	width: 250px;
+	margin-bottom: 40px;
+}
+.topo p{
+	font-weight: bold;
+	font-style: normal;
+	margin-left: 80px;
+	line-height: 1.5;
+}
+.topo small{
+	font-weight: normal;
+}
+
+.topo::after {
+	content: "";
+	height: 1px;
+	width: 220px;
+	background-color: #fcfcfc;
+	margin: 0 auto;
+	display: block;
+	margin-top: 35px;
+}
+.avatar{
+	height: 50px;
+	width: 50px;
+	background-color: #39b54a;
+	border-radius:50%;
+	border:3px solid #fff;
+	float: left;
+}
+
+.card2 {
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 320px;
+	height: 70px;
+	padding: 10px;
+	background-image: linear-gradient(171deg, rgba(39,61,93, 0.4) 0%, rgba(70,29,114, 0.4) 100%) !important;
+	border-radius: 5px;
+}
+.card2 p{
+	margin-top: 0px;
+	font-weight: normal;
+	font-style: normal;
+	margin-left: 60px;
+	line-height: 1.5;
+	color: #fcfcfc;
+}
+.card2 small{
+	font-weight: normal;
+	color: #2CC65C;
+}
+
+.titulo{
+	max-width: 320px;
+	margin: 0 auto;
+	margin-top: 10px;
+	line-height: 1.5;
+	color: #fcfcfc;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 11px;
+}
+#marginprocure{
+	margin-top: 15px;
+}
+.logo{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 183px;
+}
+.logo img{
+	height: 200px;
+}
+.content p{
+	color: #fcfcfc;
+	text-align: center;
+	font-size: 17px;
+	font-style: italic;
+
+}
+.input-field label {
+     color: #fff;
+}
+   /* label underline focus color */
+.input-field input[type=text] {
+     border-bottom: 2px solid #fff!important;
+     box-shadow: 0 1px 0 0 #fff!important;
+}
+   /* valid color */
+.input-field input[type=text].valid {
+     border-bottom: 1px solid #fff!important;
+     box-shadow: 0 2px 0 0 #fff!important;
+}
+   /* icon prefix focus color */
+.input-field .prefix.active {
+     color: #fff !important;
+}
+.botao {
+	background:linear-gradient(to right, #008b5a 1%, #2cc65d 100%);
+	background-color:#008b5a;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	font-weight:bold;
+	padding:8px 0px;
+	text-decoration:none;
+	width: 100%;
+	text-align: center;
+}
+.botao:hover {
+	background:linear-gradient(to left, #2cc65d 1%, #008b5a 100%);
+	background-color:#2cc65d;
+}
+.botao:active {
+	position:relative;
+	top:1px;
+}
+.row p{
+	font-size: 14px !important;
+}
